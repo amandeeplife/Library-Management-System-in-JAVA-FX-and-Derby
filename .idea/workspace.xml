@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assistant/listBook/bookList.fxml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assistant/listBook/booklistController.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/database/db.lck" afterPath="$PROJECT_DIR$/database/db.lck" />
-      <change beforePath="$PROJECT_DIR$/database/log/log.ctrl" afterPath="$PROJECT_DIR$/database/log/log.ctrl" />
-      <change beforePath="$PROJECT_DIR$/database/log/log1.dat" afterPath="$PROJECT_DIR$/database/log/log1.dat" />
-      <change beforePath="$PROJECT_DIR$/database/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/database/log/logmirror.ctrl" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c490.dat" afterPath="$PROJECT_DIR$/database/seg0/c490.dat" />
-      <change beforePath="$PROJECT_DIR$/database/seg0/c4a1.dat" afterPath="$PROJECT_DIR$/database/seg0/c4a1.dat" />
       <change beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
       <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/assistant/Main.class" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/assistant/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/assistant/addBook/AddBook.fxml" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/assistant/addBook/AddBook.fxml" />
-      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/assistant/addBook/AddBookController.class" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/assistant/addBook/AddBookController.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/assistant/database/DatabaseHandler.class" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/assistant/database/DatabaseHandler.class" />
       <change beforePath="$PROJECT_DIR$/src/assistant/Main.java" afterPath="$PROJECT_DIR$/src/assistant/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/assistant/addBook/AddBook.fxml" afterPath="$PROJECT_DIR$/src/assistant/addBook/AddBook.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/assistant/addBook/AddBookController.java" afterPath="$PROJECT_DIR$/src/assistant/addBook/AddBookController.java" />
-      <change beforePath="$PROJECT_DIR$/src/assistant/database/DatabaseHandler.java" afterPath="$PROJECT_DIR$/src/assistant/database/DatabaseHandler.java" />
+      <change beforePath="$PROJECT_DIR$/src/assistant/listBook/bookList.fxml" afterPath="$PROJECT_DIR$/src/assistant/listBook/bookList.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/assistant/listBook/booklistController.java" afterPath="$PROJECT_DIR$/src/assistant/listBook/booklistController.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,8 +69,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assistant/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="333">
+              <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,8 +130,8 @@
       <file leaf-file-name="DatabaseHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/assistant/database/DatabaseHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="34" />
+            <state relative-caret-position="594">
+              <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,9 +155,21 @@
       <file leaf-file-name="booklistController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assistant/listBook/booklistController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="504">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2564#2565#0" expanded="true" />
+                <element signature="e#2598#2599#0" expanded="true" />
+                <element signature="e#2626#2627#0" expanded="true" />
+                <element signature="e#2657#2658#0" expanded="true" />
+                <element signature="e#2689#2690#0" expanded="true" />
+                <element signature="e#2724#2725#0" expanded="true" />
+                <element signature="e#2760#2761#0" expanded="true" />
+                <element signature="e#2798#2799#0" expanded="true" />
+                <element signature="e#2830#2831#0" expanded="true" />
+                <element signature="e#2864#2865#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -227,9 +227,10 @@
         <option value="$PROJECT_DIR$/src/assistant/database/databaseHelper.java" />
         <option value="$PROJECT_DIR$/src/assistant/Controller.java" />
         <option value="$PROJECT_DIR$/src/assistant/database/DatabaseHandler.java" />
-        <option value="$PROJECT_DIR$/src/assistant/Main.java" />
         <option value="$PROJECT_DIR$/src/assistant/addBook/AddBookController.java" />
         <option value="$PROJECT_DIR$/src/assistant/listBook/bookList.fxml" />
+        <option value="$PROJECT_DIR$/src/assistant/Main.java" />
+        <option value="$PROJECT_DIR$/src/assistant/listBook/booklistController.java" />
       </list>
     </option>
   </component>
@@ -690,20 +691,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assistant/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/assistant/database/DatabaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="594">
+          <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assistant/database/DatabaseHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/assistant/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="34" />
+        <state relative-caret-position="333">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -723,9 +724,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assistant/listBook/booklistController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="504">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2564#2565#0" expanded="true" />
+            <element signature="e#2598#2599#0" expanded="true" />
+            <element signature="e#2626#2627#0" expanded="true" />
+            <element signature="e#2657#2658#0" expanded="true" />
+            <element signature="e#2689#2690#0" expanded="true" />
+            <element signature="e#2724#2725#0" expanded="true" />
+            <element signature="e#2760#2761#0" expanded="true" />
+            <element signature="e#2798#2799#0" expanded="true" />
+            <element signature="e#2830#2831#0" expanded="true" />
+            <element signature="e#2864#2865#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

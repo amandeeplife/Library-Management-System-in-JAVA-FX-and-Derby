@@ -18,10 +18,10 @@ public class Main extends Application {
    public static Stage window;
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("addBook/AddBook.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("listBook/bookList.fxml"));
         window = primaryStage;
         window.setTitle("Hello World");
-        window.setScene(new Scene(root, 500, 375));
+        window.setScene(new Scene(root, 600, 475));
         window.show();
 
         conn = DriverManager.getConnection("jdbc:mysql://localhost/lms","root","root");
